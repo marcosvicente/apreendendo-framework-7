@@ -1,17 +1,5 @@
-//Settings
-
-$navbar-background: rgba(7, 11, 20, 1);
-$navbar-color: rgba(255, 255, 255, 1);
-
-$toolbar-background: rgba(7, 11, 20, 1);
-$toolbar-color:rgba(255, 255, 255, 1);
-
-.navbar{
-  background-color: $navbar-background;
-  color: $navbar-color;
-}
-
-.toolbar{
-  background-color: $toolbar-background;
-  color: $toolbar-color;
-}
+@import "apoio";
+@import "setting";
+@import "menu";
+@import "toolbar";
+@import "sidebar";
