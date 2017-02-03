@@ -1,0 +1,20 @@
+.sidebar{
+  background: $sidebar-background;
+  color: $sidebar-color;
+}
+.sidebar-conta{
+  margin: -31px -17px 20px -17px;
+  padding: 20px;
+  background: $sidebar-conta-background;
+  color: $sidebar-conta-color;
+
+}
+
+.sidebar-link{
+  background:$sidebar-link-background;
+  padding: 10px 20px;
+
+  a{
+    color: $sidebar-link-color;
+  }
+}
