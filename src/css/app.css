@@ -78,4 +78,8 @@
   .texto p {
     text-align: justify; }
 
+.button {
+  background: #070b14;
+  color: #fff; }
+
 /*# sourceMappingURL=app.css.map */

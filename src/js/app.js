@@ -35,12 +35,6 @@ $$("open-panel-right").on('click', function(e) {
 });
 
 /**
-* Quiz salvar json 
-*/
-
-$$('form.ajax-submit').on('form:success', function (e) {
-  var xhr = e.detail.xhr; // actual XHR object
-
-  var data = e.detail.data; // Ajax response from action file
-  // do something with response data
-});
+ * Submit Ajax
+ */
+ 
