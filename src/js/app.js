@@ -15,6 +15,19 @@ var mainView = app.addView('.view-main', {
 
 
 /**
+ * Page filmes
+ */
+mainView.router.load({pageName: 'filme'});
+
+
+/**
+ * Page  Historia
+ */
+ mainView.router.load({pageName: 'historia'});
+
+
+
+/**
  * Abrir menu
  */
 $$("open-panel-right").on('click', function(e) {

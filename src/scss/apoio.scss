@@ -1,7 +1,11 @@
 
 // Apoio
 
-.text-center{text-align: center;}
+.text-center{
+  text-align: center;
+  margin-left:auto;
+  margin-right: auto;
+}
 .text-left{text-align: center;}
 .text-right{text-align:center;}
 .icons-14{font-size: 24px;}
