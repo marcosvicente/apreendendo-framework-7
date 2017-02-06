@@ -9,17 +9,9 @@ var $$ = Dom7
 
 var mainView = app.addView('.view-main', {
     // Because we use fixed-through navbar we can enable dynamic navbar
-    dynamicNavbar: true
+    // dynamicNavbar: true
 });
 
-/**
- * Page Filmes
- */
-
- // Callbacks to run specific code for specific pages, for example for About page:
- app.onPageInit('filmes', function (page) {
-     
- });
 
 
 /**

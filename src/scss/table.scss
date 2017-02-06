@@ -6,6 +6,12 @@
   thead{
     background:$table-header-background;
     color:$table-header-color;
+    tr{
+      th{
+        padding:20px;
+        font-size: 20px;
+      }
+    }
   }
   tbody{
     tr{
